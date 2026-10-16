@@ -50,10 +50,6 @@ export function Hero() {
               <Download width={18} height={18} />
               Download CV
             </ButtonLink>
-            <ButtonLink href="#contact" variant="ghost" id="cta-contact">
-              <Mail width={18} height={18} />
-              Contact
-            </ButtonLink>
           </div>
 
           <ul className="text-muted animate-fade-up mt-10 flex flex-wrap gap-x-6 gap-y-2 text-sm [animation-delay:300ms]">
