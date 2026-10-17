@@ -5,9 +5,9 @@ export const profile: Profile = {
   shortName: "Fathur",
   role: "Fullstack Web Developer - Open for Internship",
   tagline:
-    "I build Laravel and PostgreSQL web apps for small organizations, from a neighborhood waste bank to a local salon's booking system.",
+    "I build Laravel and MySQL web apps for small organizations, from a neighborhood waste bank to a local salon's booking system.",
   status: "7th-semester Information Systems student",
-  location: "Indonesia",
+  location: "Bekasi, Indonesia",
   availability: "",
   email: "fathurrahmanrifaldi@gmail.com",
   cvUrl:
@@ -21,8 +21,8 @@ export const profile: Profile = {
     },
     {
       label: "LinkedIn",
-      href: "https://www.linkedin.com/in/fathurrifaldi",
-      handle: "fathurrifaldi",
+      href: "https://www.linkedin.com/in/fathurrahmanrifaldi",
+      handle: "fathurrahmanrifaldi",
       icon: "linkedin",
     },
     {
