@@ -11,7 +11,7 @@ export const profile: Profile = {
   availability: "",
   email: "fathurrahmanrifaldi@gmail.com",
   cvUrl:
-    "https://drive.google.com/drive/folders/1c0MO0Me3gWy0X6Afk5jIkpq92qbi8WCk?usp=sharing",
+    "https://drive.google.com/file/d/1scw_7unzTwZk6h04PzcqhdQseCfEGS2K/view?usp=drive_link",
   socials: [
     {
       label: "GitHub",
