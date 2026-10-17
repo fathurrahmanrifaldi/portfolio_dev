@@ -5,7 +5,33 @@ import type { Project } from "@/lib/types";
  * Fill every "[TODO: ...]" string. Follow the order problem -> your contribution -> tech -> outcome.
  * To add a screenshot: put the file in /public/projects/ and set `image: "/projects/<file>.png"`.
  */
-export const projects: Project[] = [
+export const projects: Project[] = [  
+  {
+    slug: "eva-salon",
+    title: "Eva Salon Booking Website",
+    originalName: "Website Booking Eva Salon",
+    problem: "Manajemen jadwal dan pemesanan di Eva Salon masih manual dan rentan kesalahan",
+    role: "Fullstack Web Developer",
+    stack: ["Laravel, MySQL, Tailwind CSS"],
+    features: [
+      "Sistem pemesanan online dengan kalender interaktif",
+      "Notifikasi otomatis ke pelanggan dan staf",
+      "Dashboard administrasi untuk mengelola jadwal dan transaksi",
+    ],
+    outcome: "Meningkatkan efisiensi operasional salon, mengurangi antrian manual, dan memberikan pengalaman pelanggan yang lebih baik.",
+    architecture: "Laravel MVC app, MySQL schema, auth, where it is deployed",
+    challenges: [
+      {
+        challenge: "Potensi dua user memesan slot waktu yang sama persis secara bersamaan",
+        solution: "Menerapkan ordered pessimistic locking untuk mencegah potensi deadlock",
+      },
+    ],
+    nextSteps: ["Menghubungkan sistem ke WhatsApp Business API resmi agar pengingat jadwal terkirim otomatis"],
+    liveUrl: "https://evasalon.up.railway.app/",
+    githubUrl: "https://github.com/fathurrahmanrifaldi/eva-salon",
+    image: "/projects/evasalon-photo.png",
+    imageAlt: "Screenshot of the Eva Salon booking website",
+  },
   {
     slug: "basara",
     title: "BASARA: Waste Bank System for RW 042",
@@ -30,40 +56,14 @@ export const projects: Project[] = [
     nextSteps: ["Integrasi WhatsApp API untuk notifikasi otomatis rincian setoran dan status pencairan saldo ke ponsel warga secara real-time"],
     liveUrl: "https://basara.up.railway.app/",
     githubUrl: "https://github.com/fathurrahmanrifaldi/BASARA",
-    image: "/projects/basara.png",
+    image: "/projects/basara-photo.png",
     imageAlt: "Screenshot of the BASARA waste bank system dashboard",
   },
   {
-    slug: "eva-salon",
-    title: "Eva Salon Booking Website",
-    originalName: "Website Booking Eva Salon",
-    problem: "Manajemen jadwal dan pemesanan di Eva Salon masih manual dan rentan kesalahan",
-    role: "Fullstack Web Developer",
-    stack: ["Laravel, MySQL, Tailwind CSS"],
-    features: [
-      "Sistem pemesanan online dengan kalender interaktif",
-      "Notifikasi otomatis ke pelanggan dan staf",
-      "Dashboard administrasi untuk mengelola jadwal dan transaksi",
-    ],
-    outcome: "Meningkatkan efisiensi operasional salon, mengurangi antrian manual, dan memberikan pengalaman pelanggan yang lebih baik.",
-    architecture: "Laravel MVC app, MySQL schema, auth, where it is deployed",
-    challenges: [
-      {
-        challenge: "[TODO: a concrete problem you hit]",
-        solution: "[TODO: how you solved it]",
-      },
-    ],
-    nextSteps: ["[TODO: what you would improve next]"],
-    liveUrl: "https://evasalon.up.railway.app/",
-    githubUrl: "https://github.com/fathurrahmanrifaldi/eva-salon",
-    image: "/projects/evasalon.png",
-    imageAlt: "Screenshot of the Eva Salon booking website",
-  },
-  {
     slug: "simbako",
-    title: "Sistem Manajemen Inventaris & POS Warung Sembako Berbasis PWA",
+    title: "SIMBAKO: Sistem Manajemen Inventaris Sembako",
     originalName: "Sistem Inventaris dan Penyesuaian Stok - Warung Sembako Pak Raswan",
-    problem: "Warung sembako konvensional umumnya mengandalkan pembukuan manual di buku tulis ",
+    problem: "Warung sembako konvensional masih mengandalkan pembukuan manual di buku tulis ",
     role: "Fullstack Web Developer",
     stack: ["Laravel, PostgreSQL, Tailwind CSS"],
     features: [
@@ -75,11 +75,11 @@ export const projects: Project[] = [
     architecture: "Laravel MVC app, PostgreSQL schema, auth, where it is deployed",
     challenges: [
       {
-        challenge: "[TODO: a concrete problem you hit]",
-        solution: "[TODO: how you solved it]",
+        challenge: "Di ponsel warung (sinyal lemah), kasir sering menekan tombol \"Bayar\" berkali-kali karena respons lambat",
+        solution: "Membuat client-side idempotency key saat keranjang dibentuk",
       },
     ],
-    nextSteps: ["[TODO: what you would improve next]"],
+    nextSteps: ["Memanfaatkan *HTML5 / BarcodeDetector Web API* langsung dari kamera smartphone untuk memindai kode batang sembako"],
     liveUrl: "https://simbako.up.railway.app/login",
     githubUrl: "https://github.com/fathurrahmanrifaldi/simbako",
     image: "/projects/simbako.png",
