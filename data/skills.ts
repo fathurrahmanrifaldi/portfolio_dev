@@ -1,7 +1,7 @@
 import type { SkillGroup } from "@/lib/types";
 
 export const skills: SkillGroup[] = [
-  { name: "Frontend", icon: "frontend", items: ["JavaScript", "Blade","Tailwind CSS"] },
+  { name: "Frontend", icon: "frontend", items: ["React","JavaScript", "Tailwind CSS"] },
   { name: "Backend", icon: "backend", items: ["Laravel", "PHP", "Supabase"] },
   { name: "Database", icon: "database", items: ["PostgreSQL", "MySQL"] },
   { name: "Cloud & DevOps", icon: "cloud", items: ["Docker", "CI/CD", "Vercel", "Railway"] },
