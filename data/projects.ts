@@ -12,7 +12,7 @@ export const projects: Project[] = [
     originalName: "Website Booking Eva Salon",
     problem: "Manajemen jadwal dan pemesanan di Eva Salon masih manual dan rentan kesalahan",
     role: "Fullstack Web Developer",
-    stack: ["Laravel, MySQL, Tailwind CSS"],
+    stack: ["Laravel, Tailwind CSS, MySQL"],
     features: [
       "Sistem pemesanan online dengan kalender interaktif",
       "Notifikasi otomatis ke pelanggan dan staf",
@@ -38,7 +38,7 @@ export const projects: Project[] = [
     originalName: "Sistem Aplikasi Bank Sampah RW 042 (BASARA)",
     problem: "Pengelolaan operasional bank sampah di RW 042 masih mengandalkan pembukuan fisik manual",
     role: "Fullstack Web Developer",
-    stack: ["Laravel, MySQL, Tailwind CSS"],
+    stack: ["Laravel, Tailwind CSS, MySQL"],
     features: [
       "Pencatatan setoran sampah multi-item dalam satu formulir dinamis",
       "Sistem pendukung keputusan untuk menentukan nasabah terbaik",
@@ -65,7 +65,7 @@ export const projects: Project[] = [
     originalName: "Sistem Inventaris dan Penyesuaian Stok - Warung Sembako Pak Raswan",
     problem: "Warung sembako konvensional masih mengandalkan pembukuan manual di buku tulis ",
     role: "Fullstack Web Developer",
-    stack: ["Laravel, PostgreSQL, Tailwind CSS"],
+    stack: ["Laravel, Tailwind CSS, PostgreSQL"],
     features: [
       "Sistem manajemen inventaris yang memungkinkan pencatatan dan pemantauan stok secara real-time",
       "Point of Sale (POS) berbasis PWA untuk memudahkan transaksi penjualan",
