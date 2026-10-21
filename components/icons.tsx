@@ -97,6 +97,14 @@ export const GraduationCap = (p: IconProps) => (
   </svg>
 );
 
+export const Calendar = (p: IconProps) => (
+  <svg {...base} {...p}>
+    <rect x="3" y="4" width="18" height="18" rx="2" />
+    <path d="M16 2v4M8 2v4M3 10h18" />
+  </svg>
+);
+
+
 export const Users = (p: IconProps) => (
   <svg {...base} {...p}>
     <circle cx="9" cy="8" r="3.5" />

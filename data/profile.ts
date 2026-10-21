@@ -5,10 +5,10 @@ export const profile: Profile = {
   shortName: "Fathur",
   role: "Fullstack Web Developer",
   tagline:
-    "I build Laravel and MySQL web apps for small organizations, from a neighborhood waste bank to a local salon's booking system.",
+    "Full-stack developer who digitizes real operational workflows Laravel & React/Supabase apps built with a focus on data integrity, from community waste management to salon booking systems",
   status: "7th-semester Information Systems student",
   location: "Bekasi, Indonesia",
-  availability: "",
+  availability: "3-6 Months",
   email: "fathurrahmanrifaldi@gmail.com",
   cvUrl:
     "https://drive.google.com/file/d/1ItSXFiNjNSfHv5Df6yLRJffA983lyBpW/view?usp=sharing",
