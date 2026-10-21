@@ -20,7 +20,7 @@ export const projects: Project[] = [
     ],
     outcome: "Eliminated paper-based accounting, accelerated monthly report summarization from hours to seconds, and improved transparency of customer balances.",
     architecture:
-      "Laravel MVC app, MySQL schema, auth, where it is deployed",
+      "Built using a monolithic Model-View-Controller (MVC) architecture with a layered approach and implements Role-Based Access Control (RBAC) to manage three access levels: Super Admin, Staff, and Customers through custom route middleware. The system also features an analytics module for periodic financial summaries, graphical visualization using Chart.js, and decision matrix calculations using the Simple Additive Weighting (SAW) method.",
     challenges: [
       {
         challenge: "Risk of balance inconsistency and data corruption during multi-table transaction recording",
@@ -46,7 +46,7 @@ export const projects: Project[] = [
       "Reconciliation of physical counts versus system records, including deviation calculations.",
     ],
     outcome: "Improved operational efficiency at the grocery store, reduced recording errors, and provided better visibility into stock conditions.",
-    architecture:"React frontend, Supabase backend, PostgreSQL schema, auth, where it is deployed",
+    architecture:"Architecture based on React 19, TypeScript, Vite, and Tailwind CSS v4, featuring a responsive interface and modular components. The data layer uses SimetrisStore with a hybrid architecture that supports Supabase/PostgreSQL for cloud operations and local storage as a fallback. Data security and integrity are maintained through authentication, RLS, RBAC, atomic database procedures, audit logs, and a FEFO mechanism for inventory management.",
     challenges: [
       {
         challenge: "Preventing Race Conditions and Negative Stock in Concurrent Mutations",
@@ -54,7 +54,7 @@ export const projects: Project[] = [
       },
     ],
     nextSteps: ["Memanfaatkan *HTML5 / BarcodeDetector Web API* langsung dari kamera smartphone untuk memindai kode batang sembako"],
-    liveUrl: "https://simbako.up.railway.app/login",
+    liveUrl: "https://simetris.vercel.app",
     githubUrl: "https://github.com/fathurrahmanrifaldi/simetris",
     image: "/projects/simetris.png",
     imageAlt: "Screenshot of the Warung ibu Irma inventory system",
@@ -72,7 +72,7 @@ export const projects: Project[] = [
       "Admin dashboard for managing schedules and transactions",
     ],
     outcome: "Improved operational efficiency at the salon, reduced manual queuing, and enhanced customer experience.",
-    architecture: "Laravel MVC app, MySQL schema, auth, where it is deployed",
+    architecture: "The application uses a Layered Clean MVC + Service Layer architecture, with the Controller handling HTTP requests and the Service Layer managing the core business logic, including slot availability calculations, booking management, and automated staff allocation.",
     challenges: [
       {
         challenge: "Potential deadlock when multiple staff members try to book the same time slot simultaneously",

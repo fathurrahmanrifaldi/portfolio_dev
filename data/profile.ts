@@ -3,7 +3,7 @@ import type { Profile } from "@/lib/types";
 export const profile: Profile = {
   name: "Fathur Rahman Rifaldi",
   shortName: "Fathur",
-  role: "Fullstack Web Developer - Open for Internship",
+  role: "Fullstack Web Developer",
   tagline:
     "I build Laravel and MySQL web apps for small organizations, from a neighborhood waste bank to a local salon's booking system.",
   status: "7th-semester Information Systems student",
@@ -11,7 +11,7 @@ export const profile: Profile = {
   availability: "",
   email: "fathurrahmanrifaldi@gmail.com",
   cvUrl:
-    "https://drive.google.com/drive/folders/1mu7rd9FfSAOIXmDajgDrY5QAbBu31ZRH?usp=drive_link",
+    "https://drive.google.com/file/d/1ClCG_bUKvGCc3Nputd7Q84HnkDqAxdQz/view?usp=sharing",
   socials: [
     {
       label: "GitHub",

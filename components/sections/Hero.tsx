@@ -24,7 +24,7 @@ export function Hero() {
               <span className="bg-accent relative inline-flex size-2.5 rounded-full" />
             </span>
             <span>
-              Open for internship · <TodoText>{profile.availability}</TodoText>
+              Open for internship<TodoText>{profile.availability}</TodoText>
             </span>
           </p>
 
@@ -82,7 +82,7 @@ export function Hero() {
             </div>
             <div className="border-border bg-surface/90 absolute -bottom-5 left-5 rounded-2xl border px-4 py-3 shadow-lg backdrop-blur">
               <p className="text-muted font-mono text-xs">Role</p>
-              <p className="text-fg text-sm font-semibold">Web Developer</p>
+              <p className="text-fg text-sm font-semibold">Full-Stack Developer</p>
             </div>
           </div>
         </div>
