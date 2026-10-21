@@ -36,8 +36,8 @@ export const projects: Project[] = [
   {
     slug: "simetris",
     title: "Management System for Grocery Store Inventory (SIMETRIS)",
-    originalName: "Sistem Manajemen Inventaris (SIMETRIS) Warung Sembako Ibu Irma",
-    problem: "Inventory management at Warung Sembako Ibu Irma is still done manually, leading to stock discrepancies and inefficient sales tracking",
+    originalName: "Sistem Manajemen Inventaris (SIMETRIS) Warung Sembako Ibu Trisna",
+    problem: "Inventory management at Warung Sembako Ibu Trisna is still done manually, leading to stock discrepancies and inefficient sales tracking",
     role: "Fullstack Web Developer",
     stack: ["React, Supabase, Tailwind CSS, PostgreSQL"],
     features: [
@@ -57,7 +57,7 @@ export const projects: Project[] = [
     liveUrl: "https://simetris.vercel.app",
     githubUrl: "https://github.com/fathurrahmanrifaldi/simetris",
     image: "/projects/simetris.png",
-    imageAlt: "Screenshot of the Warung ibu Irma inventory system",
+    imageAlt: "Screenshot of the Warung Ibu Trisna inventory system",
   },
   {
     slug: "eva-salon",

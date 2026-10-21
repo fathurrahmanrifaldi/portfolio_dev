@@ -25,7 +25,7 @@ export function Hero() {
               <span className="bg-accent relative inline-flex size-2.5 rounded-full" />
             </span>
             <span>
-              Open for internship · <TodoText>{profile.availability}</TodoText>
+              Open for internship - <TodoText>{profile.availability}</TodoText>
             </span>
           </p>
 

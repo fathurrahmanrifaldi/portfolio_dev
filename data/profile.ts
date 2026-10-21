@@ -33,11 +33,11 @@ export const profile: Profile = {
     },
   ],
   about: [
-    "I study Information Systems at Universitas Bina Sarana Informatika, now in my 7th semester. I build fullstack web apps with Laravel and PHP, store data in PostgreSQL or MySQL, and ship with Docker to Vercel or Railway.",
-    "I work by first understanding the problem and planning the solution, then implementing it with clean and maintainable code. I thoroughly test my code and review it carefully before committing.",
+    "I study Information Systems at Universitas Bina Sarana Informatika, now in my 7th semester. I build fullstack web apps with Laravel and React/Supabase, store data in PostgreSQL or MySQL, and ship with Docker to Vercel or Railway.",
+    "I work by first mapping the business logic and data flow using ERDs and use case diagrams before writing code, then implementing it with transaction-safe, maintainable code. Before shipping, I stress-test critical flows like concurrent bookings or stock updates to catch race conditions early, not after deployment. ",
   ],
   lookingFor:
-    "I'm looking for a Fullstack or Web Developer internship (PKL/magang). I can work on-site or remotely, and I can commit for 3-6 months.",
+    "I’m looking for a Fullstack/Web Developer internship (PKL/magang) on-site or remote, available for 3-6 months",
   facts: [
     { label: "Focus", value: "Fullstack web development" },
     { label: "Study", value: "Information Systems, 7th semester" },
