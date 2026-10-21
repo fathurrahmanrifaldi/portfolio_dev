@@ -11,7 +11,7 @@ export const profile: Profile = {
   availability: "",
   email: "fathurrahmanrifaldi@gmail.com",
   cvUrl:
-    "https://drive.google.com/file/d/1scw_7unzTwZk6h04PzcqhdQseCfEGS2K/view?usp=drive_link",
+    "https://drive.google.com/drive/folders/1mu7rd9FfSAOIXmDajgDrY5QAbBu31ZRH?usp=drive_link",
   socials: [
     {
       label: "GitHub",
@@ -42,7 +42,7 @@ export const profile: Profile = {
     { label: "Focus", value: "Fullstack web development" },
     { label: "Study", value: "Information Systems, 7th semester" },
     { label: "GPA", value: "3.7 / 4.0" },
-    { label: "Based in", value: "Indonesia, Bekasi" },
+    { label: "Based in", value: "Bekasi, Indonesia" },
     { label: "Availability", value: "Available, 3-6 months, on-site/remote" },
   ],
 };
