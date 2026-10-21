@@ -55,7 +55,7 @@ export const projects: Project[] = [
     ],
     nextSteps: ["Memanfaatkan *HTML5 / BarcodeDetector Web API* langsung dari kamera smartphone untuk memindai kode batang sembako"],
     liveUrl: "https://simbako.up.railway.app/login",
-    githubUrl: "https://github.com/fathurrahmanrifaldi/simbako",
+    githubUrl: "https://github.com/fathurrahmanrifaldi/simetris",
     image: "/projects/simetris.png",
     imageAlt: "Screenshot of the Warung ibu Irma inventory system",
   },
