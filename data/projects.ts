@@ -54,7 +54,7 @@ export const projects: Project[] = [
       },
     ],
     nextSteps: ["Memanfaatkan *HTML5 / BarcodeDetector Web API* langsung dari kamera smartphone untuk memindai kode batang sembako"],
-    liveUrl: "https://simetris.vercel.app",
+    liveUrl: "https://simetrisku.vercel.app",
     githubUrl: "https://github.com/fathurrahmanrifaldi/simetris",
     image: "/projects/simetris.png",
     imageAlt: "Screenshot of the Warung Ibu Trisna inventory system",
