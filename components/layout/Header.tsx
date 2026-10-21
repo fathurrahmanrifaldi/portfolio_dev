@@ -1,7 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useState } from "react";
+import logoImage from "@/public/logo.png";
 import { profile } from "@/data/profile";
 import { Close, Menu } from "@/components/icons";
 import { cn } from "@/lib/utils";
@@ -48,8 +50,15 @@ export function Header() {
           className="group flex items-center gap-2.5 font-semibold tracking-tight"
           aria-label={`${profile.name}, home`}
         >
-          <span className="bg-accent grid size-8 place-items-center rounded-lg font-mono text-sm text-white transition-transform group-hover:-rotate-6">
-            FR
+          <span className="border-border/80 bg-surface-2 ring-accent/30 group-hover:ring-accent relative flex size-8 shrink-0 items-center justify-center overflow-hidden rounded-full border ring-2 transition-all duration-300 group-hover:scale-105 group-hover:shadow-[0_0_15px_rgba(79,70,229,0.35)]">
+            <Image
+              src={logoImage}
+              alt={`${profile.name} logo`}
+              width={32}
+              height={32}
+              priority
+              className="size-full object-cover transition-transform duration-300 group-hover:scale-110"
+            />
           </span>
           <span className="hidden sm:inline">{profile.name}</span>
         </Link>
